@@ -32,13 +32,11 @@ fi
 # 画像の幅
 if [ -z "${WIDTH:-}" ]; then
   WIDTH=800
-  exit 1
 fi
 
 # 画像の高さ
 if [ -z "${HEIGHT:-}" ]; then
   HEIGHT=600
-  exit 1
 fi
 
 
